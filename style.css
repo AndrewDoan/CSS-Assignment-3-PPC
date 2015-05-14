@@ -1,6 +1,6 @@
 #wrapper {
 	width: 970px;
-	height: 900px;
+	height: 800px;
 	background-color: black;
 }
 
@@ -50,14 +50,13 @@
 		padding-top: 20px;
 	}
 		#top{
-		border: 1px solid black;
 		width: 970px;
-		height: 430px;
+		height: 300px;
+		padding-left:35px;
 		}
 			#top img{
 				display: inline-block;
 				border: 5px solid white;
-				margin-left: 35px;
 				bottom: 15px;
 				position: relative;
 
@@ -83,7 +82,7 @@
 						position: relative;
 						bottom: 5px;
 						margin-left: 10px;
-						color: black;
+					
 					}
 
 				#news_content{
@@ -107,8 +106,83 @@
 					background-color: black;
 					color: #698554;
 					height: 20px;
-					width: 970px;
+					width: 400px;
 					position: relative;
 					right: 350px;
+					top: 10px;
 					font-size: 13px;
+				}
+		#bottom {
+			padding-left: 35px;
+		}
+			#bottom h2{
+				font-size: 14px;
+				position: relative;
+				bottom: 5px;
+				margin-left: 10px;
+			}
+			#bottom p{
+				font-size: 12px;
+				margin-left: 10px;
+			}
+			#box1 {
+				width:220px;
+				height: 275px;
+				border: 1px solid black;
+				display: inline-block;
+				background-color: white;
+
+			}
+				#box1_header{
+					height: 30px;
+					width: 220px;
+					background-color: #FFCD00;
+					display: inline-block;
+				}
+			#box2 {
+				width:220px;
+				height: 275px;
+				border: 1px solid black;
+				display: inline-block;
+				background-color: white;
+				position: relative;
+				top: 1px;
+
+			}
+				#box2_header{
+					height: 30px;
+					width: 220px;
+					background-color: #FFCD00;
+					display: inline-block;
+				}
+			#box3 {
+				width:220px;
+				height: 275px;
+				border: 1px solid black;
+				display: inline-block;
+				background-color: white;
+				position: relative;
+				top: 12px;
+
+			}
+				#box3_header{
+					height: 30px;
+					width: 220px;
+					background-color: #FFCD00;
+					display: inline-block;
+				}
+			#box4 {
+				width:220px;
+				height: 275px;
+				border: 1px solid black;
+				display: inline-block;
+				background-color: white;
+				position: relative;
+				top: 12px;
+			}
+				#box4_header{
+					height: 30px;
+					width: 220px;
+					background-color: #FFCD00;
+					display: inline-block;
 				}
