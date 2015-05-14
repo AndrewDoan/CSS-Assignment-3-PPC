@@ -4,53 +4,111 @@
 	background-color: black;
 }
 
-#header {
-	width: 970px;
-	height: 100px;
-	background-color: #E9E9E9;
-}
+	#header {
+		width: 970px;
+		height: 100px;
+		background-color: #E9E9E9;
+	}
 
-#header h1{
-	display: inline-block;
-	font-size: 22px;
-	position: relative;
-	bottom: 10px;
-	left: 150px;
-	color: #463925;
+		#header h1{
+			display: inline-block;
+			font-size: 22px;
+			position: relative;
+			bottom: 10px;
+			left: 150px;
+			color: #463925;
 	
-}
+		}
 
-#navigation {
-	width: 970px;
-	height: 35px;
-	background-color: #DBE2E7;
-	border-top: 1px solid black;
-}
+	#navigation {
+		width: 970px;
+		height: 35px;
+		background-color: #DBE2E7;
+		border-top: 1px solid black;
+	}
 
-#navigation ul{
-	position: relative;
-	bottom: 10px;
-}
+		#navigation ul{
+			position: relative;
+			bottom: 10px;
+		}
 
-#navigation li{
-	display: inline-block;
-	margin-left: 25px;
-	font-size: 13px;
-}
+		#navigation li{
+			display: inline-block;
+			margin-left: 25px;
+			font-size: 13px;
+		}
 
-#navigation a{
-	text-decoration: none;
-	color:#463925;
-}
+		#navigation a{
+		text-decoration: none;
+		color:#463925;
+		}
 
 
-#content {
-	width: 970px;
-	height: 765px;
-}
+	#content {
+		width: 970px;
+		height: 765px;
+		padding-top: 20px;
+	}
+		#top{
+		border: 1px solid black;
+		width: 970px;
+		height: 430px;
+		}
+			#top img{
+				display: inline-block;
+				border: 5px solid white;
+				margin-left: 35px;
+				bottom: 15px;
+				position: relative;
 
-#top{
-	border: 1px solid black;
-	width: 970px;
-	height: 430px;
-}
+			}
+
+			#news {
+				width: 500px;
+				height: 265px;
+				margin-left: 10px;
+				background-color: #404040;
+				display: inline-block;
+			}
+				#news_header {
+					width: 500px;
+					height: 30px;
+					background-color: #FED325;
+					display: inline-block;
+
+				}
+
+					#news_header h2{
+						font-size: 14px;
+						position: relative;
+						bottom: 5px;
+						margin-left: 10px;
+						color: black;
+					}
+
+				#news_content{
+				margin-left: 10px;
+				}
+
+					#news_content h3{
+					color: white;
+					font-size: 14px;
+					}
+
+					#news_content p{
+					color:white;
+					display: inline-block;
+					margin-right: 10px;
+					font-size: 12px;
+		
+					}
+
+				#news_extra {
+					background-color: black;
+					color: #698554;
+					height: 20px;
+					width: 970px;
+					position: relative;
+					right: 350px;
+					font-size: 13px;
+				}
